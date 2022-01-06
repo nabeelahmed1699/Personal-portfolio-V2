@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Nabeel Ahmed</title>
+
+    <!-- icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header bg-dark" id="home">
+        <nav class="navbar flex" style="--gap:0">
+            <div class="logo ff-lora fs-500" style="font-style: italic;">N.A</div>
+            <div class="hamburger"><span class="line bg-accent"></span></div>
+            <ul class="navlist flex" style="--gap:2.3rem" data-visible="false" aria-expanded="false">
+                <li>
+                    <a href="#home" class="fs-400 ff-roboto clr-grey  underline-anime" "><span class=" clr-accent ">01.</span>Home</a>
+                </li>
+                <li>
+                    <a href=" #about " class=" fs-400 ff-roboto clr-grey underline-anime ""><span class=" clr-accent">02.</span>About</a>
+                </li>
+                <li>
+                    <a href=" #projects" class="fs-400 ff-roboto clr-grey underline-anime" "><span class=" clr-accent ">03.</span>Work</a>
+                </li>
+                <li>
+                    <a href=" #contact " class=" fs-400 ff-roboto clr-grey underline-anime ""><span class=" clr-accent">04.</span>Contact</a>
+                </li>
+                <a href="./Resume.pdf" download="" class="btn resume-btn fs-300 ff-roboto clr-accent">resume</a>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ======================= Hero ======================= -->
+    <main class="hero-section container flex">
+        <div class="hero-desc flex" style="--gap:1.2rem">
+            <h2 class="ff-lora fs-600">Hey there,</h2>
+            <h1 class="ff-carattere fs-800 clr-accent">Nabeel Ahmed</h1>
+            <h2 class="ff-lora fs-600">front end developer who focuses on writing clean, elegant and efficient code. Currently focused on learning new technologies like react js...
+            </h2>
+            <button class="btn cta-btn ff-raleway fs-400">Hire me!</button>
+        </div>
+    </main>
+
+    <!-- ======================= Sidebars =================== -->
+    <aside class="left container">
+        <div class="side-links flex" style="--gap:1.2rem">
+            <a class="clr-off-white" href="https://github.com/nabeelahmed1699"><i class="ri-github-line"></i></a>
+            <a class="clr-off-white" href="https://www.linkedin.com/in/nabeelahmed1699/"><i
+                    class="ri-linkedin-line"></i></a>
+            <a class="clr-off-white" href="https://twitter.com/nabeel_mufti"><i class="ri-twitter-line"></i></a>
+            <a class="clr-off-white" href="https://www.instagram.com/nabeelahmed1699/"><i
+                    class="ri-instagram-line"></i></a>
+        </div>
+    </aside>
+    <aside class="right container">
+        <div class="side-links">
+            <a class="fs-400" href="mailto:nabeelahmed1699@gmail.com">nabeelahmed1699@gmail.com</a>
+        </div>
+    </aside>
+
+    <!--======================= About =======================-->
+    <section class="section about-section container flex">
+        <h2 class=" section-title fs-700 ff-roboto">About</h2>
+        <div class=" about flex" id="about">
+            <div class=" about-img"></div>
+            <div class=" about-text bg-accent clr-dark ff-lora fs-400 flex">
+                <h3 class=" about-title ">Who am I,Where I'm from?</h3>
+                <p class=" about-desc ">I’m from <span>Lahore</span> one of the beautiful cities of
+                    <span>Pakistan</span>. Back early in 2018 when I first started coding, I choose <span>C++</span> as my major language but now I have more <span>interest and Joy</span> in making a web.
+                </p>
+                <a href=" # " class=" btn about-btn ">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!--======================= Projects =======================-->
+    <section class="section projects-section container flex">
+        <h2 class=" section-title fs-700 ff-roboto">Projects</h2>
+        <div class="project-container web-projects-container flex" id="projects">
+            <!-- <article class="project shadow-2">
+                <div class="project-card flex ff-lora bg-dark shadow-1">
+                    <h3 class=" clr-accent ">Weather App</h3>
+                    <p class="fs-300 ">Wheather app using openWeather api. Visit my github for source code. you can search weather of any city of the world.</p>
+                    <a href="# " class="btn project-btn clr-accent ">Visit</a>
+                </div>
+            </article> -->
+        </div>
+        <div class="project-container grid js-projects-container">
+            <!-- <article class="js-project">
+                <a href="#" class="bg-glass">
+                    <h2 class="ff-lora clr-accent fs-500">Todo list</h2>
+                </a>
+                <img src="./images/projects/appleclone.png" alt="applewebsite">
+            </article> -->
+        </div>
+    </section>
+    <!-- ====================== contact ========================= -->
+    <section class=" section contact container flex">
+        <h2 class="section-title fs-700 ff-roboto">Contact</h2>
+        <form class=" form flex ff-lora clr-accent" action=" " method=" post " id="contact">
+            <div class="flex">
+                <input type=" text " class="bg-secondary" placeholder=" Name " required>
+                <input type=" email " class="bg-secondary" placeholder=" Email " required>
+            </div>
+            <input type=" text " class="bg-secondary" placeholder=" Subject " required>
+            <textarea name=" message " class="bg-secondary" id=" message " cols=" 30 " rows=" 10 " placeholder=" Message " required></textarea>
+            <button type=" submit " class="btn cta-btn">Submit</button>
+        </form>
+    </section>
+    <!-- ====================== jump to top btn ========================= -->
+    <a href="#home" class="up-btn bg-accent clr-dark fs-600"><i class="ri-arrow-up-line"></i></a>
+    <!-- =============== Social links ============== -->
+    <section class="social container">
+        <h2 class="section-title fs-500 ff-roboto">Social links</h2>
+        <div class="social-links-container flex">
+            <a class="clr-off-white fs-500" href="https://github.com/nabeelahmed1699">
+                <i class="ri-github-line"></i>
+            </a>
+
+            <a class="clr-off-white fs-500" href="https://www.linkedin.com/in/nabeelahmed1699/">
+                <i class="ri-linkedin-line"></i>
+            </a>
+
+            <a class="clr-off-white fs-500" href="https://twitter.com/nabeel_mufti">
+                <i class="ri-twitter-line"></i>
+            </a>
+
+            <a class="clr-off-white fs-500" href="https://www.instagram.com/nabeelahmed1699/"><i
+                    class="ri-instagram-line"></i></a>
+        </div>
+    </section>
+    <!-- ================== Footer ====================== -->
+    <footer class="bg-secondary flex">
+        <h3 class="fs-300 ff-lora clr-off-white">Designed and developed by <span class="clr-accent">Nabeel Ahmed</span>
+        </h3>
+    </footer>
+    <script src=" ./script/script.js " type="module">
+    </script>
+</body>
+
+</html>
