@@ -908,6 +908,12 @@ aside .side-links {
     .form div {
         flex-direction: column;
     }
+    .container {
+        padding-inline: 0 !important;
+    }
+    .hero-desc {
+        margin-inline: 1.3rem;
+    }
 }
 
 
