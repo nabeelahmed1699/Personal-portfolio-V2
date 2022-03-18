@@ -133,8 +133,9 @@ function createJsProject(project) {
     const { name, visitLink, img, desc } = project;
     let article = document.createElement('article');
     article.classList.add('js-project');
-    article.innerHTML = `<a href="${visitLink}" class="bg-glass">
-                    <h2 class="ff-lora clr-accent fs-500">${name}</h2>
+    article.classList.add('bg-secondary');
+    article.innerHTML = `<a href="${visitLink}">
+                    <h2 class="ff-lora clr-accent fs-500 bg-glass">${name}</h2>
                     </a>
                     <img src="${img}" alt="${name}">
                     <p class="ff-lora">${desc}</p>`
