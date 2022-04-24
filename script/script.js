@@ -137,7 +137,7 @@ function createJsProject(project) {
     article.innerHTML = `<a href="${visitLink}">
                     <h2 class="ff-lora clr-accent fs-500 bg-glass">${name}</h2>
                     </a>
-                    <img src="${img}" alt="${name}">
+                    <img loading="lazy" src="${img}" alt="${name}">
                     <p class="ff-lora">${desc}</p>`
     return article;
 }
