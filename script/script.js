@@ -26,7 +26,7 @@ function handleNavbar() {
     document.body.style.overflowY = "scroll";
 }
 
-// ================= if any navbar link is clicked===============
+// ================= if any navbar link is clicked================
 const links = navList.querySelectorAll('li');
 links.forEach(link => {
     link.addEventListener('click', () => {
