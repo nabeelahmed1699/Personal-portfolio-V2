@@ -40,7 +40,7 @@ links.forEach(link => {
 const jsProjects = [{
             id: 1,
             name: 'Todo list App',
-            img: 'images/projects/Todolistapp.PNG',
+            img: 'images/projects/Todolistapp.png',
             visitLink: 'https://nabeelahmed1699.github.io/To-do-App/',
             sourceCode: 'https://github.com/nabeelahmed1699/To-do-App',
             desc: `The basic function of this app is to create a list of todos. It also contain random quote generator functionality achieved using an api.`
@@ -48,7 +48,7 @@ const jsProjects = [{
         {
             id: 2,
             name: 'Calculator App',
-            img: 'images/projects/calculatorapp.PNG',
+            img: 'images/projects/calculatorapp.png',
             visitLink: 'https://nabeelahmed1699.github.io/Calculator-App/',
             sourceCode: 'https://github.com/nabeelahmed1699/Calculator-App',
             desc: `Basic calculator app that can perform basic arithmatic functions.`
@@ -57,7 +57,7 @@ const jsProjects = [{
         {
             id: 3,
             name: 'Weather App',
-            img: 'images/projects/weatherapp.PNG',
+            img: 'images/projects/weatherapp.png',
             visitLink: 'https://nabeelahmed1699.github.io/Weather-App/',
             sourceCode: 'https://github.com/nabeelahmed1699/Weather-App',
             desc: `Weather app using openWeather api.It is an open source api. Quite fun project.`
@@ -107,7 +107,7 @@ const webProjects = [{
         name: 'Apple website clone',
         desc: 'I’ve tried and clone the apple website landing not pixel perfect but tried my best to make it same as much as possible, also it is completely responsive. Visit my Github to see the project source code fork it and make it yours.',
         link: 'https://nabeelahmed1699.github.io/Apple-clone/',
-        background: 'images/projects/appleclone.PNG'
+        background: 'images/projects/appleclone.png'
     }
 ];
 // ========================== Projects handling ==============================
