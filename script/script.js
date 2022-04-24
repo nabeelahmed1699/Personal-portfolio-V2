@@ -119,7 +119,7 @@ function createWebProject(project) {
     const { name, id, link, desc, background } = project;
     let article = document.createElement('article');
     article.classList.add('project');
-    article.classList.add('shadow-2');
+    article.classList.add('shadow-1');
     article.innerHTML = `<div class="project-card flex ff-lora bg-dark shadow-1">
                     <h3 class=" clr-accent ">${name}</h3>
                     <p class="fs-300 ">${desc}</p>
