@@ -24,13 +24,15 @@
                     <a href="#home" class="fs-400 ff-roboto clr-grey  underline-anime" "><span class=" clr-accent ">01.</span>Home</a>
                 </li>
                 <li>
-                    <a href=" #about " class=" fs-400 ff-roboto clr-grey underline-anime ""><span class=" clr-accent">02.</span>About</a>
+                    <a href=" #about " class=" fs-400 ff-roboto clr-grey underline-anime ""><span
+                            class=" clr-accent">02.</span>About</a>
                 </li>
                 <li>
                     <a href=" #projects" class="fs-400 ff-roboto clr-grey underline-anime" "><span class=" clr-accent ">03.</span>Work</a>
                 </li>
                 <li>
-                    <a href=" #contact " class=" fs-400 ff-roboto clr-grey underline-anime ""><span class=" clr-accent">04.</span>Contact</a>
+                    <a href=" #contact " class=" fs-400 ff-roboto clr-grey underline-anime ""><span
+                            class=" clr-accent">04.</span>Contact</a>
                 </li>
                 <a href="./Resume.pdf" download="" class="btn resume-btn fs-300 ff-roboto clr-accent">resume</a>
             </ul>
@@ -42,7 +44,8 @@
         <div class="hero-desc flex" style="--gap:1.2rem">
             <h2 class="ff-lora fs-600">Hey there,</h2>
             <h1 class="ff-carattere fs-800 clr-accent">Nabeel Ahmed</h1>
-            <h2 class="ff-lora fs-600">front end developer who focuses on writing clean, elegant and efficient code. Currently focused on learning new technologies like react js...
+            <h2 class="ff-lora fs-600">front end developer who focuses on writing clean, elegant and efficient code.
+                Currently focused on learning new technologies like react js...
             </h2>
             <button class="btn cta-btn ff-raleway fs-400">Hire me!</button>
         </div>
@@ -73,7 +76,8 @@
             <div class=" about-text bg-accent clr-dark ff-lora fs-400 flex">
                 <h3 class=" about-title ">Who am I,Where I'm from?</h3>
                 <p class=" about-desc ">I’m from <span>Lahore</span> one of the beautiful cities of
-                    <span>Pakistan</span>. Back early in 2018 when I first started coding, I choose <span>C++</span> as my major language but now I have more <span>interest and Joy</span> in making a web.
+                    <span>Pakistan</span>. Back early in 2018 when I first started coding, I choose <span>C++</span> as
+                    my major language but now I have more <span>interest and Joy</span> in making a web.
                 </p>
                 <a href=" # " class=" btn about-btn ">Read More</a>
             </div>
@@ -104,13 +108,14 @@
     <!-- ====================== contact ========================= -->
     <section class=" section contact container flex">
         <h2 class="section-title fs-700 ff-roboto">Contact</h2>
-        <form class=" form flex ff-lora clr-accent" action=" " method=" post " id="contact">
+        <form class=" form flex ff-lora clr-accent" action=" " method="post" id="contact">
             <div class="flex">
-                <input type=" text " class="bg-secondary" placeholder=" Name " required>
-                <input type=" email " class="bg-secondary" placeholder=" Email " required>
+                <input type=" text " class="bg-secondary" placeholder=" Name " required name="name" maxlength="20">
+                <input type=" email " class="bg-secondary" placeholder=" Email " required name="email" maxlength="20">
             </div>
-            <input type=" text " class="bg-secondary" placeholder=" Subject " required>
-            <textarea name=" message " class="bg-secondary" id=" message " cols=" 30 " rows=" 10 " placeholder=" Message " required></textarea>
+            <input type=" text " class="bg-secondary" placeholder=" Subject " required name="purpose" maxlength="50">
+            <textarea name=" message " class="bg-secondary" id=" message " cols=" 30 " rows=" 10 "
+                placeholder=" Message " required name="message" maxlength="200"></textarea>
             <button type=" submit " class="btn cta-btn">Submit</button>
         </form>
     </section>
@@ -141,8 +146,7 @@
         <h3 class="fs-300 ff-lora clr-off-white">Designed and developed by <span class="clr-accent">Nabeel Ahmed</span>
         </h3>
     </footer>
-    <script src=" ./script/script.js ">
-    </script>
+    <script src=" ./script/script.js "></script>
 </body>
 
 </html>
